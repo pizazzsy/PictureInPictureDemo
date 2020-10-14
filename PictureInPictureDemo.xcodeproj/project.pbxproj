@@ -16,6 +16,7 @@
 		D4FBCE122536E45C0099D616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBCE112536E45C0099D616 /* main.m */; };
 		D4FBCE1C2536E45D0099D616 /* PictureInPictureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBCE1B2536E45D0099D616 /* PictureInPictureDemoTests.m */; };
 		D4FBCE272536E45D0099D616 /* PictureInPictureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FBCE262536E45D0099D616 /* PictureInPictureDemoUITests.m */; };
+		D4FBCE382536E5BE0099D616 /* v1.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = D4FBCE372536E5BE0099D616 /* v1.MP4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D4FBCE222536E45D0099D616 /* PictureInPictureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureInPictureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FBCE262536E45D0099D616 /* PictureInPictureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureInPictureDemoUITests.m; sourceTree = "<group>"; };
 		D4FBCE282536E45D0099D616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FBCE372536E5BE0099D616 /* v1.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.MP4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		D4FBCDFE2536E45C0099D616 /* PictureInPictureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4FBCE372536E5BE0099D616 /* v1.MP4 */,
 				D4FBCDFF2536E45C0099D616 /* AppDelegate.h */,
 				D4FBCE002536E45C0099D616 /* AppDelegate.m */,
 				D4FBCE022536E45C0099D616 /* SceneDelegate.h */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FBCE382536E5BE0099D616 /* v1.MP4 in Resources */,
 				D4FBCE0F2536E45C0099D616 /* LaunchScreen.storyboard in Resources */,
 				D4FBCE0C2536E45C0099D616 /* Assets.xcassets in Resources */,
 				D4FBCE0A2536E45C0099D616 /* Main.storyboard in Resources */,
@@ -441,15 +445,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF9P2LU6M2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
 				INFOPLIST_FILE = PictureInPictureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.PictureInPictureDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = okAutoDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,15 +465,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF9P2LU6M2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
 				INFOPLIST_FILE = PictureInPictureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.PictureInPictureDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = okAutoDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
